@@ -3,7 +3,7 @@
 A principio é uma pagina com um QR Code bem símples porém destaquei o maximo de informações, cores e posicionamentos a minha maneira buscando deixar o projeto parecido com o original
 mas com um toque da minha personalidade.<br>
 ## HTML Semântico &#x1F4DD; &#x1F5A5; &#x1F310; <br>
-Esta parte do projeto não foi um desafio tão difícil devido ser uma página bem simples e com poucas linhas de marcações,<br> sendo assim criei e defini cada tag no seu respectivo lugar sem muita demora.<br>
+Esta parte do projeto não foi um desafio tão difícil devido ser uma página bem simples e com poucas linhas de marcações, sendo assim criei e defini cada tag no seu respectivo lugar sem muita demora.<br>
 ## CSS e Responsividade &#x1F3A8; &#x1F58C; &#x1F5BC;
 Na parte do CSS eu já me deparei com algumas dificuldades até definir aonde tudo iria se encaixar corretamente, as cores eu decidi bem rápido, 
 agora na parte da responsividade tive muita dificuldade e confesso que continuo aprimorando esta parte do projeto.
