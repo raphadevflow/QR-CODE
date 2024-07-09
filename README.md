@@ -8,3 +8,5 @@ Esta parte do projeto não foi um desafio tão difícil devido ser uma página b
 Na parte do CSS eu já me deparei com algumas dificuldades até definir aonde tudo iria se encaixar corretamente, as cores eu decidi bem rápido, 
 agora na parte da responsividade tive muita dificuldade e confesso que continuo aprimorando esta parte do projeto.
 ### Porém, deixo aqui algumas imagens demonstrativas do projeto e o link acessem e verifiquem como ficou a funcionalidade caso identifique algo que poderia ser aplicado de forma mais simples e melhor, estou aberto a sugestões e feedbacks, espero que tenham uma agradável experiência!
+<img src="https://github.com/raphadevflow/Teste-tecnico-em-HTML-semantico-CSS-responsivo-QR-CODE-FORNTEND-MENTOR/assets/129867401/181c579b-ffa5-458f-9169-25a492655233">
+<img src="https://github.com/raphadevflow/Teste-tecnico-em-HTML-semantico-CSS-responsivo-QR-CODE-FORNTEND-MENTOR/assets/129867401/1a13c24c-9193-418c-84ea-aa2554152837">
