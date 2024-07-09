@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.QR-code {
+    border-radius: 30px;
+    height: 350px;
+}
+
+.QR-code:hover {
+    opacity: 0.8; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BEC8D4;
+    padding-top: 9px;
+    min-height: 100vh; /* Garante que o body tenha pelo menos a altura total da viewport */
+    position: relative; /* Necessário para posicionamento absoluto do rodapé */
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(220, 207, 245);
+    border-radius: 11px;
+    max-width: 490px;
+    padding-top: 16px;
+}
+
+h1 {
+    font-size: 36px;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    text-align: center; /* Centraliza o título */
+    max-width: 600px; /*Define uma largura máxima */
+    color: #301346;
+}
+
+p {
+    font-size: 17.5px;
+    line-height: 25px;
+    padding-top: 15px;
+    text-align: center; /* Centraliza o texto do parágrafo */
+    max-width: 600px; /* Define uma largura máxima para o parágrafo */
+    color: #230d33dc;
+}
+
+footer.attribution {
+    background-color: #492d5f; 
+    color: white; 
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    display: flex; 
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+footer.attribution a {
+    color: rgb(182, 165, 214); /* Mantém a cor do texto do link igual ao restante do texto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+footer.attribution a:hover {
+    opacity: 0.8; /* Melhora a visibilidade no hover */
+}
+
+.desafio {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #f7f3fa;
+}
+
+.codificado {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #f7f3fa;
+}
+
+/* Media Queries para Responsividade */
+
+/* Tablets em Paisagem/landscape */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .QR-code {
+        height: 300px;
+    }
+}
+
+/* Tablets em Retrato/portrait e Smartphones grandes */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .QR-code {
+        height: 250px;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .QR-code {
+        height: 200px;
+    }
+    main {
+        max-width: 90%; /* Reduz a largura máxima para caber melhor em telas menores */
+    }
+}
